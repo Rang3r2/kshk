@@ -1,0 +1,372 @@
+body {
+    background-image: url(./imagine/фон.jpg);
+  }
+  header {
+    max-inline-size: 99%;
+    inline-size: 100%;
+    background-image: url(./imagine/флн2.jpg);
+    border: 5px rgb(66, 66, 66) solid;
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+  }
+  
+  header li {
+    margin-inline-start: 5px;
+    display: inline-block;
+    background-color: rgb(147, 147, 147);
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding-inline-start: 5px;
+    padding-inline-end: 5px;
+    padding-block-start: 2px;
+    padding-block-end: 2px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  }
+  header li:hover {
+    margin-inline-start: 5px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(74, 74, 74);
+    border-radius: 15px;
+    padding-inline-start: 5px;
+    padding-inline-end: 5px;
+    padding-block-start: 2px;
+    padding-block-end: 2px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  }
+  header a {
+    text-decoration: none;
+  }
+  header li .active {
+    display: inline-block;
+    background-color: rgb(147, 147, 147);
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding-inline-start: 5px;
+    padding-inline-end: 5px;
+    padding-block-start: 2px;
+    padding-block-end: 2px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  }
+  .da {
+    inline-size: 100%;
+    margin: 0 auto;
+    display: flex;
+  }
+  main {
+    color: rgb(255, 255, 255);
+  }
+  .daaa img {
+    margin-block-start: 40px;
+    max-inline-size: 20%;
+    display: block;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border: solid 2px rgb(168, 167, 167);
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px rgb(153, 153, 153);
+    background-color: black;
+  }
+  .daaa img:hover {
+    margin-block-start: 40px;
+    max-inline-size: 20%;
+    display: block;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border: solid 2px rgb(244, 244, 244);
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px rgb(247, 247, 247);
+    background-color: rgb(58, 58, 58);
+  }
+  .holo {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    max-inline-size: 20%;
+    margin: 0 auto;
+    border: double rgb(138, 138, 138) 5px;
+    box-shadow: 0px 0px 30px rgb(157, 157, 157);
+    margin-block-start: 30px;
+  }
+  .holo:hover {
+    text-align: center;
+    background-color: rgb(47, 47, 47);
+    max-inline-size: 20%;
+    margin: 0 auto;
+    border: double rgb(220, 220, 220) 5px;
+    box-shadow: 0px 0px 30px rgb(234, 234, 234);
+    margin-block-start: 30px;
+  }
+  @media (min-inline-size: 280px) and (max-inline-size: 350px) {
+    header {
+      max-inline-size: 99%;
+      inline-size: 100%;
+      background-image: url(./imagine/фон.jpg);
+      border: 5px rgb(66, 66, 66) solid;
+      box-shadow: 0px 0px 30px rgb(255, 255, 255);
+    }
+    .daaa img {
+      margin-block-start: 40px;
+      max-inline-size: 40%;
+      display: block;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      border: solid 2px rgb(168, 167, 167);
+      border-radius: 50%;
+      box-shadow: 0px 0px 30px rgb(153, 153, 153);
+      background-color: black;
+    }
+    .holo {
+      text-align: center;
+      background-color: rgb(0, 0, 0);
+      max-inline-size: 80%;
+      margin: 0 auto;
+      border: double rgb(138, 138, 138) 5px;
+      box-shadow: 0px 0px 30px rgb(157, 157, 157);
+      margin-block-start: 30px;
+    }
+    .daaa img:hover {
+      margin-block-start: 40px;
+      max-inline-size: 40%;
+      display: block;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      border: solid 2px rgb(244, 244, 244);
+      border-radius: 50%;
+      box-shadow: 0px 0px 30px rgb(247, 247, 247);
+      background-color: rgb(58, 58, 58);
+    }
+    .holo:hover {
+      text-align: center;
+      background-color: rgb(47, 47, 47);
+      max-inline-size: 80%;
+      margin: 0 auto;
+      border: double rgb(220, 220, 220) 5px;
+      box-shadow: 0px 0px 30px rgb(234, 234, 234);
+      margin-block-start: 30px;
+    }
+  }
+  
+  @media (min-inline-size: 350px) and (max-inline-size: 400px) {
+    header {
+      max-inline-size: 99%;
+      inline-size: 100%;
+      background-image: url(./imagine/фон.jpg);
+      border: 5px rgb(66, 66, 66) solid;
+      box-shadow: 0px 0px 30px rgb(255, 255, 255);
+    }
+    .daaa img {
+      margin-block-start: 40px;
+      max-inline-size: 60%;
+      display: block;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      border: solid 2px rgb(168, 167, 167);
+      border-radius: 50%;
+      box-shadow: 0px 0px 30px rgb(153, 153, 153);
+      background-color: black;
+    }
+    .holo {
+      text-align: center;
+      background-color: rgb(0, 0, 0);
+      max-inline-size: 80%;
+      margin: 0 auto;
+      border: double rgb(138, 138, 138) 5px;
+      box-shadow: 0px 0px 30px rgb(157, 157, 157);
+      margin-block-start: 30px;
+    }
+    .daaa img:hover {
+      margin-block-start: 40px;
+      max-inline-size: 60%;
+      display: block;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      border: solid 2px rgb(244, 244, 244);
+      border-radius: 50%;
+      box-shadow: 0px 0px 30px rgb(247, 247, 247);
+      background-color: rgb(58, 58, 58);
+    }
+    .holo:hover {
+      text-align: center;
+      background-color: rgb(47, 47, 47);
+      max-inline-size: 80%;
+      margin: 0 auto;
+      border: double rgb(220, 220, 220) 5px;
+      box-shadow: 0px 0px 30px rgb(234, 234, 234);
+      margin-block-start: 30px;
+    }
+  }
+  @media (min-inline-size: 400px) and (max-inline-size: 600px) {
+    header {
+      max-inline-size: 99%;
+      inline-size: 100%;
+      background-image: url(./imagine/фон.jpg);
+      border: 5px rgb(66, 66, 66) solid;
+      box-shadow: 0px 0px 30px rgb(255, 255, 255);
+    }
+    .daaa img {
+      margin-block-start: 40px;
+      max-inline-size: 60%;
+      display: block;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      border: solid 2px rgb(168, 167, 167);
+      border-radius: 50%;
+      box-shadow: 0px 0px 30px rgb(153, 153, 153);
+      background-color: black;
+    }
+    .holo {
+      text-align: center;
+      background-color: rgb(0, 0, 0);
+      max-inline-size: 80%;
+      margin: 0 auto;
+      border: double rgb(138, 138, 138) 5px;
+      box-shadow: 0px 0px 30px rgb(157, 157, 157);
+      margin-block-start: 30px;
+    }
+    .daaa img:hover {
+      margin-block-start: 40px;
+      max-inline-size: 60%;
+      display: block;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      border: solid 2px rgb(244, 244, 244);
+      border-radius: 50%;
+      box-shadow: 0px 0px 30px rgb(247, 247, 247);
+      background-color: rgb(58, 58, 58);
+    }
+    .holo:hover {
+      text-align: center;
+      background-color: rgb(47, 47, 47);
+      max-inline-size: 80%;
+      margin: 0 auto;
+      border: double rgb(220, 220, 220) 5px;
+      box-shadow: 0px 0px 30px rgb(234, 234, 234);
+      margin-block-start: 30px;
+    }
+  }
+  @media (min-inline-size: 600px) and (max-inline-size: 900px) {
+    header {
+      max-inline-size: 99%;
+      inline-size: 100%;
+      background-image: url(./imagine/фон.jpg);
+      border: 5px rgb(66, 66, 66) solid;
+      box-shadow: 0px 0px 30px rgb(255, 255, 255);
+    }
+    .daaa img {
+      margin-block-start: 40px;
+      max-inline-size: 40%;
+      display: block;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      border: solid 2px rgb(168, 167, 167);
+      border-radius: 50%;
+      box-shadow: 0px 0px 30px rgb(153, 153, 153);
+      background-color: black;
+    }
+    .holo {
+      text-align: center;
+      background-color: rgb(0, 0, 0);
+      max-inline-size: 80%;
+      margin: 0 auto;
+      border: double rgb(138, 138, 138) 5px;
+      box-shadow: 0px 0px 30px rgb(157, 157, 157);
+      margin-block-start: 30px;
+    }
+    .daaa img:hover {
+      margin-block-start: 40px;
+      max-inline-size: 40%;
+      display: block;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      border: solid 2px rgb(244, 244, 244);
+      border-radius: 50%;
+      box-shadow: 0px 0px 30px rgb(247, 247, 247);
+      background-color: rgb(58, 58, 58);
+    }
+    .holo:hover {
+      text-align: center;
+      background-color: rgb(47, 47, 47);
+      max-inline-size: 80%;
+      margin: 0 auto;
+      border: double rgb(220, 220, 220) 5px;
+      box-shadow: 0px 0px 30px rgb(234, 234, 234);
+      margin-block-start: 30px;
+    }
+  }
+  @media (min-inline-size: 900px) and (max-inline-size: 1200px) {
+    header {
+      max-inline-size: 99%;
+      inline-size: 100%;
+      background-image: url(./imagine/фон.jpg);
+      border: 5px rgb(66, 66, 66) solid;
+      box-shadow: 0px 0px 30px rgb(255, 255, 255);
+    }
+    .daaa img {
+      margin-block-start: 40px;
+      max-inline-size: 40%;
+      display: block;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      border: solid 2px rgb(168, 167, 167);
+      border-radius: 50%;
+      box-shadow: 0px 0px 30px rgb(153, 153, 153);
+      background-color: black;
+    }
+    .holo {
+      text-align: center;
+      background-color: rgb(0, 0, 0);
+      max-inline-size: 80%;
+      margin: 0 auto;
+      border: double rgb(138, 138, 138) 5px;
+      box-shadow: 0px 0px 30px rgb(157, 157, 157);
+      margin-block-start: 30px;
+    }
+    .daaa img:hover {
+      margin-block-start: 40px;
+      max-inline-size: 40%;
+      display: block;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      border: solid 2px rgb(244, 244, 244);
+      border-radius: 50%;
+      box-shadow: 0px 0px 30px rgb(247, 247, 247);
+      background-color: rgb(58, 58, 58);
+    }
+    .holo:hover {
+      text-align: center;
+      background-color: rgb(47, 47, 47);
+      max-inline-size: 80%;
+      margin: 0 auto;
+      border: double rgb(220, 220, 220) 5px;
+      box-shadow: 0px 0px 30px rgb(234, 234, 234);
+      margin-block-start: 30px;
+    }
+  }
+  
+  .ark {
+    display: flex;
+  }
+  
+  .ark img {
+    background-color: rgb(26, 26, 26);
+    inline-size: 450px;
+    block-size: 450px;
+    border: inset 1px rgb(81, 81, 81);
+    border-radius: 30px;
+  }
+  .gpg {
+    display: flex;
+  }
+  .pg {
+    background-color: rgb(176, 176, 176);
+    color: rgb(0, 0, 0);
+    inline-size: 450px;
+    margin-inline-start: 20px;
+    margin-block-start: 30px;
+    text-align: center;
+    border-radius: 35px;
+    border: double rgb(83, 83, 83) 5px;
+    box-shadow: 0px 0px 30px rgb(81, 81, 81);
+  }
